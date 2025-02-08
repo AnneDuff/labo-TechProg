@@ -34,9 +34,9 @@ int partition(int* elements, int left, int right) {
 
 void quickSort(int* elements, int left, int right) {
     if (right < left) {
-        int echange = partition(elements, left, right);
+        int pivot = partition(elements, left, right);
         quickSort(elements, left, right);
-        quickSort(elements, left, echange - 1);
-        quickSort(elements, echange + 1, right);
+        quickSort(elements, left, pivot - 1);
+        quickSort(elements, pivot + 1, right);
     }
 }
