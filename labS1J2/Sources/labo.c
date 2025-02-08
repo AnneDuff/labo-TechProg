@@ -13,24 +13,10 @@ void insertionSort(int elements[], int n){
     }
 }
 
-
-void quickSort(int* elements, int left, int right){
-
-    if (right < left) {
-        int echange = partition(elements, left, right);
-        quickSort(elements, left, right);
-        quickSort(elements, left, echange - 1);
-        quickSort(elements, echange + 1, right);
-
-    }
-}
-
 int partition(int* elements, int left, int right) {
-    int echange = elements[right];
-    int i = left - 1;
-
+    int pivot = elements[right], i = left - 1;
     for (int j = left; j <= right - 1; j++) {
-        if (elements[j] < echange) {
+        if (elements[j] < pivot) {
             i++;
             int swap = elements[i];
             elements[i] = elements[j];
@@ -43,4 +29,14 @@ int partition(int* elements, int left, int right) {
     elements[right] = swap;
 
     return i + 1;
+    
+}
+
+void quickSort(int* elements, int left, int right) {
+    if (right < left) {
+        int echange = partition(elements, left, right);
+        quickSort(elements, left, right);
+        quickSort(elements, left, echange - 1);
+        quickSort(elements, echange + 1, right);
+    }
 }
