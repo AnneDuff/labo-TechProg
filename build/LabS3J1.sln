@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4DBA7EC9-672A-4240-A226-7B88B6F7B233}") = "LabS3J1", "LabS3J1.vcxproj", "{51DF6A2C-70C9-44AE-A424-937786CCF627}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Develop|x64 = Develop|x64
+		Develop|x86 = Develop|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51DF6A2C-70C9-44AE-A424-937786CCF627}.Debug|x64.ActiveCfg = Debug|x64
+		{51DF6A2C-70C9-44AE-A424-937786CCF627}.Debug|x64.Build.0 = Debug|x64
+		{51DF6A2C-70C9-44AE-A424-937786CCF627}.Debug|x86.ActiveCfg = Debug|Win32
+		{51DF6A2C-70C9-44AE-A424-937786CCF627}.Debug|x86.Build.0 = Debug|Win32
+		{51DF6A2C-70C9-44AE-A424-937786CCF627}.Develop|x64.ActiveCfg = Develop|x64
+		{51DF6A2C-70C9-44AE-A424-937786CCF627}.Develop|x64.Build.0 = Develop|x64
+		{51DF6A2C-70C9-44AE-A424-937786CCF627}.Develop|x86.ActiveCfg = Develop|Win32
+		{51DF6A2C-70C9-44AE-A424-937786CCF627}.Develop|x86.Build.0 = Develop|Win32
+		{51DF6A2C-70C9-44AE-A424-937786CCF627}.Release|x64.ActiveCfg = Release|x64
+		{51DF6A2C-70C9-44AE-A424-937786CCF627}.Release|x64.Build.0 = Release|x64
+		{51DF6A2C-70C9-44AE-A424-937786CCF627}.Release|x86.ActiveCfg = Release|Win32
+		{51DF6A2C-70C9-44AE-A424-937786CCF627}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
